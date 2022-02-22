@@ -106,6 +106,7 @@ function getTodoList() {
   //   { id: 5, title: 'Learn TYPESCRIPT', status: 'pending' },
   //   { id: 6, title: 'Learn NEXT JS', status: 'pending' },
   // ];
+  // localStorage.setItem('todo_list',JSON.stringify(todoList));
   const todoList = getTodoList();
   renderTodoList(todoList, 'todoList');
 })();
